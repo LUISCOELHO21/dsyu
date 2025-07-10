@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Império Digital</title>
+  <title>TMI - Treinamento Milionário</title>
 
   <!-- Facebook Pixel Code -->
   <script>
@@ -15,67 +15,41 @@
     t.src=v;s=b.getElementsByTagName(e)[0];
     s.parentNode.insertBefore(t,s)}(window, document,'script',
     'https://connect.facebook.net/en_US/fbevents.js');
-    
-    fbq('init', '1451614612849112'); // Seu novo ID do Pixel
-    fbq('track', 'PageView');
+    fbq('init', '1451614612849112');
+    fbq('track', 'ViewContent');
   </script>
   <noscript>
     <img height="1" width="1" style="display:none"
-      src="https://www.facebook.com/tr?id=1451614612849112&ev=PageView&noscript=1" />
+    src="https://www.facebook.com/tr?id=1451614612849112&ev=ViewContent&noscript=1" />
   </noscript>
   <!-- End Facebook Pixel Code -->
 
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'Montserrat', sans-serif;
-    }
     body {
       background: #000;
       color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      font-family: Arial, sans-serif;
       text-align: center;
-      padding: 60px 20px;
     }
-    .logo {
-      max-width: 200px;
-      margin-bottom: 40px;
-    }
-    h1 {
-      font-size: 22px;
-      font-weight: 800;
-      margin-bottom: 20px;
-    }
-    p {
-      font-size: 16px;
-      margin-bottom: 30px;
-    }
-    .button {
-      background-color: #e3a80e;
-      color: black;
-      font-weight: 700;
-      padding: 15px 30px;
-      font-size: 18px;
-      border-radius: 10px;
-      text-decoration: none;
-      display: inline-block;
-    }
-    .button:hover {
-      background-color: #f5bf3b;
+    .message {
+      font-size: 20px;
+      color: #fff;
     }
   </style>
 </head>
 <body>
-  <img class="logo" src="https://raw.githubusercontent.com/LUISCOELHO21/rr9/main/imperio_digital_quadrado.png" alt="Império Digital" />
-  <h1>Você será redirecionado para a apresentação oficial em instantes...</h1>
-  <p>Aguarde enquanto carregamos a melhor oportunidade para você.</p>
-  <a class="button" href="https://cakto.app/6v5Mn9R/?affiliate=qWgwQKry" target="_blank">Ir agora</a>
+  <div class="message">
+    Aguarde um momento...<br />Você está sendo redirecionado.
+  </div>
 
   <script>
     setTimeout(function() {
       window.location.href = "https://cakto.app/6v5Mn9R/?affiliate=qWgwQKry";
-    }, 2000); // Redireciona após 2 segundos
+    }, 4000); // 2 segundos
   </script>
 </body>
 </html>
